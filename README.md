@@ -56,7 +56,7 @@ Live usage notes and sample commands grouped by tool category:
 
 | Module # | Title                                      | Folder Link |
 |----------|---------------------------------------------|-------------|
-| 01       | Purpose & Objectives                        | [01-purpose-objectives/](./01-purpose-objectives/) |
+| 01       | Purpose & Objectives                        | [01-purpose-objectives/](penetration-testing-series-travel-sector/01-purpose-objectives) |
 | 02       | Testing Types: Black, Gray, White Boxes     | [02-testing-types-black-gray-white/](./02-testing-types-black-gray-white/) |
 | 03       | OWASP Top 10 & Pen Testing                  | [03-owasp-top10/](./03-owasp-top10/) |
 | 04       | Pen Testing Methodologies                   | [04-methodologies/](./04-methodologies/) |
