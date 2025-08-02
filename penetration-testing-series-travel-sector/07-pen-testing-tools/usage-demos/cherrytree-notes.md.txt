@@ -2,10 +2,11 @@
 
 Created a structured CherryTree note tree:
 
-- ⬢ Recon  
-- ⬢ Scanning  
-- ⬢ Exploits  
-- ⬢ Credentials  
-- ⬢ Screenshots
+- Recon  
+- Scanning  
+- xploits  
+- Credentials  
+- Screenshots
 
 Used it to organize raw notes and images for manual validation.
+
