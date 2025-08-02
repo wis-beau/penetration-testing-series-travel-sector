@@ -22,7 +22,7 @@ This repository documents a simulated penetration testing series focused on a fi
 
 ## 🧰 Tool Stack
 
-![TripPlanner Tool Stack](./assets/tripplanner-tool-stack.png)
+![TripPlanner Tool Stack](penetration-testing-series-travel-sector/08-reporting-structure/visuals/TripPlanner Penetration Testing Tool Stack mind map.png)
 
 This diagram visualizes tools used across different phases of the pentest: Reconnaissance, Scanning, Gaining Access, Maintaining Access, and Reporting.
 
@@ -32,8 +32,8 @@ This diagram visualizes tools used across different phases of the pentest: Recon
 
 | File | Description |
 |------|-------------|
-| [`reports/tripplanner-penetration-summary.pdf`](./reports/tripplanner-penetration-summary.pdf) | Executive summary with scope, findings, and recommendations |
-| [`reports/tripplanner-raw-findings.md`](./reports/tripplanner-raw-findings.md) | Technical raw findings organized by testing phase |
+| [`reports/tripplanner-penetration-summary.pdf`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.docx) | Executive summary with scope, findings, and recommendations |
+| [`reports/tripplanner-raw-findings.md`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.odt.docx) | Technical raw findings organized by testing phase |
 
 ---
 
@@ -57,19 +57,19 @@ Live usage notes and sample commands grouped by tool category:
 | Module # | Title                                      | Folder Link |
 |----------|---------------------------------------------|-------------|
 | 01       | Purpose & Objectives                        | [01-purpose-objectives/](penetration-testing-series-travel-sector/01-purpose-objectives) |
-| 02       | Testing Types: Black, Gray, White Boxes     | [02-testing-types-black-gray-white/](./02-testing-types-black-gray-white/) |
-| 03       | OWASP Top 10 & Pen Testing                  | [03-owasp-top10/](./03-owasp-top10/) |
-| 04       | Pen Testing Methodologies                   | [04-methodologies/](./04-methodologies/) |
-| 05       | Penetration Testing Phases                  | [05-phases/](./05-phases/) |
-| 06       | Authorization & Safe Testing Practices      | [06-authorization-safety/](./06-authorization-safety/) |
-| 07       | Penetration Testing Tools                   | [07-tools-overview/](./07-tools-overview/) |
-| 08       | Penetration Testing Reporting Structure     | [08-reporting-structure/](./08-reporting-structure/) |
+| 02       | Testing Types: Black, Gray, White Boxes     | [02-testing-types-black-gray-white/](penetration-testing-series-travel-sector/02-testing-types-black-gray-white) |
+| 03       | OWASP Top 10 & Pen Testing                  | [03-owasp-top10/](penetration-testing-series-travel-sector/03-owasp-top10-and-pentesting) |
+| 04       | Pen Testing Methodologies                   | [04-methodologies/](penetration-testing-series-travel-sector/04-pen-testing-methodologies) |
+| 05       | Penetration Testing Phases                  | [05-phases/](penetration-testing-series-travel-sector/5 Pen Testing Phases) |
+| 06       | Authorization & Safe Testing Practices      | [06-authorization-safety/](penetration-testing-series-travel-sector/06-authorization-safe-testing) |
+| 07       | Penetration Testing Tools                   | [07-tools-overview/](penetration-testing-series-travel-sector/07-pen-testing-tools) |
+| 08       | Penetration Testing Reporting Structure     | [08-reporting-structure/](penetration-testing-series-travel-sector/08-reporting-structure) |
 
 ---
 
 ## 🧠 Notes
 
-- [`notes/cherry-notes-export.ctd`](./notes/cherry-notes-export.ctd): export from CherryTree used for research tracking.
+- [`notes/cherry-notes-export.ctd`](penetration-testing-series-travel-sector/07-pen-testing-tools/usage-demos/cherrytree-notes.md.txt): export from CherryTree used for research tracking.
 
 ---
 
