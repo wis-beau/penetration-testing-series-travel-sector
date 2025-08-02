@@ -32,8 +32,8 @@ This diagram visualizes tools used across different phases of the pentest: Recon
 
 | File | Description |
 |------|-------------|
-| [`reports/tripplanner-penetration-summary.pdf`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.docx) | Executive summary with scope, findings, and recommendations |
-| [`reports/tripplanner-raw-findings.md`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.odt.docx) | Technical raw findings organized by testing phase |
+| [`reports/tripplanner-penetration-summary.docx`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.docx) | Executive summary with scope, findings, and recommendations |
+| [`reports/tripplanner-raw-findings.docx`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.odt.docx) | Technical raw findings organized by testing phase |
 
 ---
 
@@ -60,7 +60,7 @@ Live usage notes and sample commands grouped by tool category:
 | 02       | Testing Types: Black, Gray, White Boxes     | [02-testing-types-black-gray-white/](penetration-testing-series-travel-sector/02-testing-types-black-gray-white) |
 | 03       | OWASP Top 10 & Pen Testing                  | [03-owasp-top10/](penetration-testing-series-travel-sector/03-owasp-top10-and-pentesting) |
 | 04       | Pen Testing Methodologies                   | [04-methodologies/](penetration-testing-series-travel-sector/04-pen-testing-methodologies) |
-| 05       | Penetration Testing Phases                  | [05-phases/](penetration-testing-series-travel-sector/5 Pen Testing Phases) |
+| 05       | Penetration Testing Phases                  | [05-Penetration Testing Phases/](penetration-testing-series-travel-sector/5 Pen Testing Phases) |
 | 06       | Authorization & Safe Testing Practices      | [06-authorization-safety/](penetration-testing-series-travel-sector/06-authorization-safe-testing) |
 | 07       | Penetration Testing Tools                   | [07-tools-overview/](penetration-testing-series-travel-sector/07-pen-testing-tools) |
 | 08       | Penetration Testing Reporting Structure     | [08-reporting-structure/](penetration-testing-series-travel-sector/08-reporting-structure) |
