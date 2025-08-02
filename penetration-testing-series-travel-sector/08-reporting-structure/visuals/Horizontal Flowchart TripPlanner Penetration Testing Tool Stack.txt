@@ -1,0 +1,11 @@
+Horizontal Flowchart: TripPlanner Penetration Testing Tool Stack
+
+
+
+┌───────────────────┐    ┌───────────────────────┐    ┌───────────────────────────┐    ┌──────────────────────┐
+│   Reconnaissance  │───▶│ Scanning & Enumeration│───▶│ Exploitation & Post-Exploit│───▶│ Reporting & Docs      │
+└─────────┬─────────┘    └──────────┬────────────┘    └──────────────┬────────────┘    └──────────┬─────────┘
+          │                         │                                │                           │
+    ├────Nmap                ├────Nikto                       ├────Metasploit              ├────Dradis
+    ├────theHarvester        ├────Dirb/Gobuster               ├────Hydra                   ├────Faraday
+    └────Shodan              └────Enum4Linux                  └────John the Ripper         └────CherryTree
