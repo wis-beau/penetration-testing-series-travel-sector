@@ -32,8 +32,8 @@ This diagram visualizes tools used across different phases of the pentest: Recon
 
 | File | Description |
 |------|-------------|
-| [`reports/tripplanner-penetration-summary.docx`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.docx) | Executive summary with scope, findings, and recommendations |
-| [`reports/tripplanner-raw-findings.docx`](penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.odt.docx) | Technical raw findings organized by testing phase |
+| [`reports/tripplanner-penetration-summary.docx`]([penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.docx](https://github.com/wis-beau/penetration-testing-series-travel-sector/blob/main/penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.md) | Executive summary with scope, findings, and recommendations |
+| [`reports/tripplanner-raw-findings.docx`]([penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.odt.docx](https://github.com/wis-beau/penetration-testing-series-travel-sector/blob/main/penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.md) | Technical raw findings organized by testing phase |
 
 ---
 
