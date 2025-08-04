@@ -1,63 +1,37 @@
-# 🛠️ Usage Demos – Penetration Testing Tool Examples
+# 🛠️ Usage Demos – Supporting Evidence for Reporting
 
-This folder contains example usage and command walkthroughs for the tools used during the **TripPlanner** penetration test simulation. Each file focuses on a specific tool or technique, organized by penetration testing phase.
+This folder contains usage examples of tools **referenced in the final penetration testing report** for the TripPlanner project. These demonstrations were specifically captured during the **reporting and documentation phase** to support the findings and provide evidence of methodology and tool use.
 
-These demos are designed to provide hands-on reference material for learning or documentation purposes.
-
----
-
-## 📂 Folder Structure & Tool Coverage
-
-### 🔎 Reconnaissance
-- [`nmap-tripplanner.md`](./reconnaissance/nmap-tripplanner.md)  
-- [`theharvester-tripplanner.md`](./reconnaissance/theharvester-tripplanner.md)  
-
-### 📡 Scanning & Enumeration
-- [`nikto-tripplanner.md`](./scanning/nikto-tripplanner.md)  
-- [`sslscan-tripplanner.md`](./scanning/sslscan-tripplanner.md)  
-
-### 🔓 Gaining Access
-- [`hydra-tripplanner.md`](./gaining-access/hydra-tripplanner.md)  
-- [`sqlmap-tripplanner.md`](./gaining-access/sqlmap-tripplanner.md)  
-
-### 🧬 Maintaining Access
-- [`metasploit-tripplanner.md`](./maintaining-access/metasploit-tripplanner.md)  
-
-### ⬆️ Privilege Escalation
-- [`linpeas-tripplanner.md`](./privilege-escalation/linpeas-tripplanner.md)  
-
-### 🗂️ Reporting & Documentation
-- [`dradis-reporting.md`](./reporting/dradis-reporting.md)  
-- [`cherrytree-tripplanner.ctd`](./reporting/cherrytree-tripplanner.ctd)
+Each file corresponds to a command-line tool or framework that contributed directly to the documented findings or remediation guidance.
 
 ---
 
-## 🧠 How to Use
+## 📂 Included Demos
 
-Each `.md` file includes:
-- The actual command(s) used  
-- Sample output or results  
-- Context of when/how it was used in the TripPlanner test  
-- Notes on interpretation or risks
-
-These are not full tutorials, but real-world snippets from an applied case study — ideal for:
-- Students in cybersecurity labs  
-- Professionals building documentation  
-- Teams building SOPs or internal guides
-
----
-
-## 📝 Notes
-
-- All tools were used in a controlled and authorized lab environment.
-- You must **have legal authorization** to run these tools on any real-world infrastructure.
-
-For full case context, see:
-- [`../reports/tripplanner-raw-findings.md`](../reports/tripplanner-raw-findings.md)  
-- [`../reports/tripplanner-penetration-summary.pdf`](../reports/tripplanner-penetration-summary.pdf)
+| File | Tool | Purpose |
+|------|------|---------|
+| `nmap-example.md` | Nmap | Network scan results supporting open port and service discovery |
+| `hydra-login-test.md` | Hydra | Demonstrated brute force success on login endpoint |
+| `metasploit-session.md` | Metasploit | Proof of successful exploit against vulnerable FTP service |
+| `linpeas-tripplanner.md` | LinPEAS | Enumeration for privilege escalation analysis |
+| `john-password-crack.md` | John the Ripper | Evidence of password cracking from leaked hashes |
+| `dradis-report.md` | Dradis | Collaboration and reporting tool used to draft and organize findings |
+| `faraday-workspace.md` | Faraday | Workspace snapshot used to correlate scan results with remediation |
+| `cherrytree-notes.md` | CherryTree | Structured notes and screenshots collected during testing |
 
 ---
 
-*Maintained by WIS-Beau | 2025*
+## 📌 Note
+
+All tools were run within a **controlled, authorized lab environment**. These usage examples are for educational and documentation purposes only and must not be replicated on live systems without explicit permission.
+
+For full context, see the associated reports:
+- [`../tripplanner-penetration-summary.pdf`](../tripplanner-penetration-summary.pdf)  
+- [`../tripplanner-raw-findings.md`](../tripplanner-raw-findings.md)
+
+---
+
+*Maintained by WIS-BEAU – Reporting Phase Artifacts*
+
 
 
