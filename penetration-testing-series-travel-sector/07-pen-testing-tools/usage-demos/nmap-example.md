@@ -1,6 +1,5 @@
 # Nmap Scan Example – Internal IP Range
 
-```bash
 nmap -sS -sV 10.10.20.0/24
 
 Findings:
@@ -11,10 +10,8 @@ Findings:
 ---
 
 ### `theharvester-example.md`
-```markdown
 # theHarvester – Email and Subdomain Enumeration
 
-```bash
 theHarvester -d tripplanner.local -b bing
 
 Findings:
@@ -25,19 +22,16 @@ Findings:
 ---
 
 ### `shodan-example.md`
-```markdown
 # Shodan Search – Public Exposure Check
 
-```bash
 shodan search "TripPlanner"
 
 ---
 
 ###`shodan-example.md`
-```markdown
+
 # Shodan Search – Public Exposure Check
 
-```bash
 shodan search "TripPlanner"
 
 
@@ -50,10 +44,9 @@ Findings:
 ---
 
 ### `nikto-example.md`
-```markdown
+
 # Nikto – Web Vulnerability Scan
 
-```bash
 nikto -h http://staging.tripplanner.local
 
 Findings:
@@ -64,10 +57,9 @@ Findings:
 ---
 
 ### `gobuster-example.md`
-```markdown
+
 # Gobuster – Hidden Directory Scan
 
-```bash
 gobuster dir -u http://intranet.tripplanner.local -w /usr/share/wordlists/dirb/common.txt
 
 
@@ -79,10 +71,9 @@ Findings:
 ---
 
 ### `enum4linux-example.md`
-```markdown
+
 # Enum4Linux – SMB Share Enumeration
 
-```bash
 enum4linux -a 10.10.20.45
 
 
@@ -94,7 +85,7 @@ Findings:
 ---
 
 ### `hydra-login-test.md`
-```markdown
+
 # Hydra – Login Brute Force Test
 
 ```bash
@@ -107,10 +98,9 @@ Findings:
 ---
 
 ### 📄 `metasploit-session.md`
-```markdown
+
 # Metasploit – Exploiting RDP Vulnerability
 
-```bash
 use exploit/windows/rdp/cve_2019_0708_bluekeep_rce
 set RHOSTS 10.10.20.21
 run
@@ -123,10 +113,9 @@ Findings:
 ---
 
 ### `john-password-crack.md`
-```markdown
+
 # John the Ripper – Cracking Password Hashes
 
-```bash
 john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 
 
@@ -137,7 +126,7 @@ Findings:
 ---
 
 ### `dradis-report.md`
-```markdown
+
 # Dradis – Report Collaboration
 
 Uploaded all findings to Dradis for central documentation:
@@ -146,4 +135,5 @@ Uploaded all findings to Dradis for central documentation:
 - Screenshot uploads  
 - CVE references  
 - PDF report generated for CISO review
+
 
