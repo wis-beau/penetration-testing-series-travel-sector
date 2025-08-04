@@ -26,12 +26,13 @@ Each file corresponds to a command-line tool or framework that contributed direc
 All tools were run within a **controlled, authorized lab environment**. These usage examples are for educational and documentation purposes only and must not be replicated on live systems without explicit permission.
 
 For full context, see the associated reports:
-- [`../tripplanner-penetration-summary.pdf`](../tripplanner-penetration-summary.pdf)  
-- [`../tripplanner-raw-findings.md`](../tripplanner-raw-findings.md)
+- [`../tripplanner-penetration-summary.md`](../[tripplanner-penetration-summary.pd](https://github.com/wis-beau/penetration-testing-series-travel-sector/blob/main/penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.md)  
+- [`../tripplanner-raw-findings.md`](../penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.md)
 
 ---
 
 *Maintained by WIS-BEAU – Reporting Phase Artifacts*
+
 
 
 
