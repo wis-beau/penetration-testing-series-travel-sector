@@ -63,7 +63,7 @@ Live usage notes and sample commands grouped by tool category:
 | 05       | Penetration Testing Phases                  | [05-Penetration Testing Phases/](penetration-testing-series-travel-sector/5 Pen Testing Phases) |
 | 06       | Authorization & Safe Testing Practices      | [06-authorization-safety/](penetration-testing-series-travel-sector/06-authorization-safe-testing) |
 | 07       | Penetration Testing Tools                   | [07-tools-overview/](penetration-testing-series-travel-sector/07-pen-testing-tools) |
-| 08       | Penetration Testing Reporting Structure     | [08-reporting-structure/](penetration-testing-series-travel-sector/08-reporting-structure) |
+| 08       | Penetration Testing Reporting Structure     | [08-reporting-structure/](https://github.com/wis-beau/penetration-testing-series-travel-sector/tree/main/penetration-testing-series-travel-sector/5%20Pen%20Testing%20Phases) |
 
 ---
 
