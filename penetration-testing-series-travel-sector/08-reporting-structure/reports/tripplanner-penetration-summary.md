@@ -1,9 +1,3 @@
-✅ The `tripplanner-raw-findings.md` content has been created.
-
-Now here’s a sample for `tripplanner-penetration-summary.pdf` (you can generate the PDF later using this content in any editor or tool like Canva, Google Docs, or Markdown to PDF converter):
-
----
-
 ### 📄 **TripPlanner Ltd – Penetration Test Summary Report**
 
 **Client:** TripPlanner Ltd
