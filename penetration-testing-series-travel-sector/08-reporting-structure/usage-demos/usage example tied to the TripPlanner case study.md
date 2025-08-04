@@ -1,123 +1,63 @@
-Perfect — here’s the full content for `📁 usage-demos/`, covering all the tools we mentioned earlier, organized by penetration testing phase.
+# 🛠️ Usage Demos – Penetration Testing Tool Examples
+
+This folder contains example usage and command walkthroughs for the tools used during the **TripPlanner** penetration test simulation. Each file focuses on a specific tool or technique, organized by penetration testing phase.
+
+These demos are designed to provide hands-on reference material for learning or documentation purposes.
 
 ---
 
-### 📁 `usage-demos/`
+## 📂 Folder Structure & Tool Coverage
 
-Each folder contains a **README.md** with a usage example tied to the **TripPlanner** case study.
+### 🔎 Reconnaissance
+- [`nmap-tripplanner.md`](./reconnaissance/nmap-tripplanner.md)  
+- [`theharvester-tripplanner.md`](./reconnaissance/theharvester-tripplanner.md)  
 
-#### ├── **reconnaissance/**
+### 📡 Scanning & Enumeration
+- [`nikto-tripplanner.md`](./scanning/nikto-tripplanner.md)  
+- [`sslscan-tripplanner.md`](./scanning/sslscan-tripplanner.md)  
 
-> Tools: `nmap`, `whois`, `theHarvester`
+### 🔓 Gaining Access
+- [`hydra-tripplanner.md`](./gaining-access/hydra-tripplanner.md)  
+- [`sqlmap-tripplanner.md`](./gaining-access/sqlmap-tripplanner.md)  
 
-* **nmap-tripplanner.md**
+### 🧬 Maintaining Access
+- [`metasploit-tripplanner.md`](./maintaining-access/metasploit-tripplanner.md)  
 
-```bash
-nmap -A -T4 tripplanner.io
-nmap -sV -p- 10.1.10.25
-```
+### ⬆️ Privilege Escalation
+- [`linpeas-tripplanner.md`](./privilege-escalation/linpeas-tripplanner.md)  
 
-*Nmap revealed open ports 22, 80, 443 and a misconfigured internal CMS interface on port 8080.*
-
-* **theharvester-tripplanner.md**
-
-```bash
-theHarvester -d tripplanner.io -b google
-```
-
-*Collected 12 emails from travel blogs and partner listings.*
-
----
-
-#### ├── **scanning/**
-
-> Tools: `nikto`, `wpscan`, `sslscan`
-
-* **nikto-tripplanner.md**
-
-```bash
-nikto -h https://tripplanner.io
-```
-
-*Discovered X-Frame-Options missing and outdated server banner.*
-
-* **sslscan-tripplanner.md**
-
-```bash
-sslscan tripplanner.io
-```
-
-*Weak ciphers detected: TLS\_RSA\_WITH\_3DES\_EDE\_CBC\_SHA.*
+### 🗂️ Reporting & Documentation
+- [`dradis-reporting.md`](./reporting/dradis-reporting.md)  
+- [`cherrytree-tripplanner.ctd`](./reporting/cherrytree-tripplanner.ctd)
 
 ---
 
-#### ├── **gaining-access/**
+## 🧠 How to Use
 
-> Tools: `burpsuite`, `hydra`, `sqlmap`
+Each `.md` file includes:
+- The actual command(s) used  
+- Sample output or results  
+- Context of when/how it was used in the TripPlanner test  
+- Notes on interpretation or risks
 
-* **hydra-tripplanner.md**
-
-```bash
-hydra -l admin -P /usr/share/wordlists/rockyou.txt tripplanner.io http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect"
-```
-
-*Successful login to test admin portal with weak credentials.*
-
-* **sqlmap-tripplanner.md**
-
-```bash
-sqlmap -u "https://api.tripplanner.io/search?id=2" --batch --risk=3 --level=5
-```
-
-*SQL injection vulnerability detected in the API endpoint.*
+These are not full tutorials, but real-world snippets from an applied case study — ideal for:
+- Students in cybersecurity labs  
+- Professionals building documentation  
+- Teams building SOPs or internal guides
 
 ---
 
-#### ├── **maintaining-access/**
+## 📝 Notes
 
-> Tools: `Metasploit`, `reverse shell`, `msfvenom`
+- All tools were used in a controlled and authorized lab environment.
+- You must **have legal authorization** to run these tools on any real-world infrastructure.
 
-* **metasploit-tripplanner.md**
-
-```bash
-use exploit/unix/webapp/php_upload_bypass
-set RHOST 10.1.10.25
-exploit
-```
-
-*File upload vulnerability exploited to gain reverse shell.*
+For full case context, see:
+- [`../reports/tripplanner-raw-findings.md`](../reports/tripplanner-raw-findings.md)  
+- [`../reports/tripplanner-penetration-summary.pdf`](../reports/tripplanner-penetration-summary.pdf)
 
 ---
 
-#### ├── **privilege-escalation/**
+*Maintained by WIS-Beau | 2025*
 
-> Tools: `linpeas.sh`, `pspy`, `crontab`
 
-* **linpeas-tripplanner.md**
-
-```bash
-./linpeas.sh
-```
-
-*Found cron job running `backup.sh` as root with insecure write permissions.*
-
----
-
-#### ├── **reporting/**
-
-> Tools: `CherryTree`, `Dradis`, `Markdown`
-
-* **cherrytree-tripplanner.ctd**
-
-> Contains the exported case notes and screenshot paths.
-
-* **dradis-reporting.md**
-
-```bash
-dradis create project tripplanner-2025
-dradis upload evidence tripplanner-cms-shell.txt
-```
-
----
-
-Would you like me to zip the folder structure or help generate a GitHub README structure for all this now?
