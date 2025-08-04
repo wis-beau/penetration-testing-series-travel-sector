@@ -27,11 +27,12 @@ All tools were run within a **controlled, authorized lab environment**. These us
 
 For full context, see the associated reports:
 - [`../tripplanner-penetration-summary.md`](../[tripplanner-penetration-summary.pd](https://github.com/wis-beau/penetration-testing-series-travel-sector/blob/main/penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-penetration-summary.md)  
-- [`../tripplanner-raw-findings.md`](../penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.md)
+- [`../tripplanner-raw-findings.md`](../[penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.md](https://github.com/wis-beau/penetration-testing-series-travel-sector/blob/main/penetration-testing-series-travel-sector/08-reporting-structure/reports/tripplanner-raw-findings.md)
 
 ---
 
 *Maintained by WIS-BEAU – Reporting Phase Artifacts*
+
 
 
 
