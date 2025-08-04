@@ -3,7 +3,7 @@
 **Client:** TripPlanner Ltd
 **Test Window:** 24–28 July 2025
 **Assessment Type:** Grey Box
-**Conducted by:** SageSecOps
+**Conducted by:** WIS-Beau
 
 ---
 
