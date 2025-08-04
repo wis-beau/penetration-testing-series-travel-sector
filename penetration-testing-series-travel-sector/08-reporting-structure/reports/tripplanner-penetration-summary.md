@@ -60,9 +60,6 @@ Assess the security posture of TripPlanner’s public and internal infrastructur
 ---
 
 **Prepared by:**
-SageSecOps
+WIS-Beau
 📅 1 August 2025
 
----
-
-Let me know if you’d like this exported as a `.pdf`, or if we should move on to finishing `📁 usage-demos/`.
