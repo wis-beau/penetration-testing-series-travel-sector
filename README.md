@@ -84,7 +84,3 @@ Companion blog-style articles are published daily on LinkedIn to expand reach an
 Pull requests are welcome to improve clarity, add more tools, or enhance reporting examples. Please open issues for suggestions.
 
 ---
-
-## 📜 License
-
-This project is released under the MIT License.
