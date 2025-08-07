@@ -26,5 +26,3 @@ This table maps key test activities from the TripPlanner engagement to correspon
 
 ---
 
-**Prepared by:** SageSecOps  
-**Date:** 1 Aug 2025
