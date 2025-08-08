@@ -58,8 +58,3 @@ Adapt based on scope, client requirements, and methodology.
 - [ ] Summarize risks for non-technical stakeholders
 - [ ] Provide remediation steps
 - [ ] Conduct debrief session with client
-
----
-
-**Prepared by:** SageSecOps  
-**Date:** 1 Aug 2025
