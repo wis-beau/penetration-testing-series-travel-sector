@@ -8,7 +8,7 @@
 
 **Testing Provider:** Wis-Beau Ops Security Consulting  
 **Testing Lead:** Alex Carter – Lead Security Engineer  
-**Email:** alex.carter@sagesecops.test  
+**Email:** alex.carter@wisbeaucops.test  
 **Phone:** +44 20 7987 6543  
 
 ---
