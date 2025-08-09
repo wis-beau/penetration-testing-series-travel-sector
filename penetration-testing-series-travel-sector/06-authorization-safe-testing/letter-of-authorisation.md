@@ -69,7 +69,7 @@ Title: _________________________
 Signature: _____________________  
 Date: _________________________  
 
-**Signed for SageSecOps Security Consulting:**  
+**Signed for Wis-Beau Ops Security Consulting:**  
 
 Name: _________________________  
 Title: _________________________  
